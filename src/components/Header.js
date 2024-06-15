@@ -22,7 +22,7 @@ export default class Header extends Component {
                 <li className="nav-available__line"></li>
                 <li><a className='nav-available' href="#home">We're available</a></li>
                 <li className='nav-circle'><a className='nav-available' href="#services"></a></li>
-                <li><a className='nav-available' href="#services">11:12</a></li>
+                <li><a className='nav-available' href="#services">11:12am</a></li>
                 <li className="nav-available__line"></li>
             
             </ul>

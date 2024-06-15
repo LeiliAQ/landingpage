@@ -78,7 +78,7 @@ export default class Landing extends Component {
 
                       <div className='header-down-title-container'>
                       <p className='header-down__title'>24h</p>
-                      <p className="emergency">Emergency Services</p>
+                      <p className="emergency">Emergency <br /> Services</p>
                       </div>
 
                       

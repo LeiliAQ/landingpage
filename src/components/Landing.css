@@ -106,13 +106,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-top: -5rem; */
+    margin-top: -2rem;
 }
 .header-down-element{
-    width: 12rem;
-    height: 14rem;
+    width: 14rem;
+    height: 16rem;
     background: black;
-    transform: skew(-20deg);
+    transform: skew(-15deg);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -120,13 +120,12 @@
     font-family: Halyard Display;
     padding-top: 1rem ;
     padding-bottom: 1rem;
-    /* padding-right: 2rem; */
     margin-left: 1.5rem;
 
 }
 
 .header-down-element>div{
-    transform: skew(20deg);
+    transform: skew(15deg);
 }
 
 .blue{
