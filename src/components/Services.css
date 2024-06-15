@@ -4,18 +4,20 @@
 
 }
 .header-title{
-    font-size: 3rem;
+    font-size: 90px;
     font-weight: bold;
     text-align: center;
+    font-family: Halyard Display;
 }
 .header-title span{
-    color:#007bff;
+    color:#00aeff;
 }
 .header-text{
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     max-width: 80rem;
     margin: 0 auto;
+    font-family: popins;
 }
 /* services */
 .services{
@@ -23,15 +25,18 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    margin-top: 5rem;
 }
 /* services footer */
 .services-footer{
 
 }
 .header-subttile{
-    font-size: 2.5rem;
+    font-size: 30px;
     margin-top: 2rem;
     font-weight: bold;
+    font-family: Halyard Display;
+    color: #231f20;
 }
 .header-images{
     display: flex;

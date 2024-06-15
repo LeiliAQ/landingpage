@@ -33,12 +33,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.nav-links{
-    
-}
-.nav-availables{
-    
-}
+
 .nav-links,
 .nav-availables{
     color: snow;
@@ -58,9 +53,6 @@
 }
 .nav-link:active, .nav-available:active{
     color: green;
-}
-.nav-link{
-    
 }
 
 .nav-available__line{

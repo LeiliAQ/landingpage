@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Onsitedeliver.css'
-import Mechanic from '../images/I-am-a-plumber-–-what-do-I-need-in-my-business-terms-and-conditions1.webp'
 
 export default class Onsitedeliver extends Component {
   render() {
@@ -40,7 +39,7 @@ export default class Onsitedeliver extends Component {
                 </div>
                
                 <div className="delivery-right">
-                    <img src={Mechanic} alt="" />
+                   
                 </div>
             </div>
       </div>

@@ -32,14 +32,14 @@ export default class Services extends Component {
         services to our Community of Customers. </p>
         {/* services boxes */}
         <div className="services">
-          <Service/>
-          <Service/>
-          <Service/>
-          <Service/>
-          <Service/>
-          <Service/>
-          <Service/>
-          <Service/>
+          <Service text="BLOCKED DRAINS"/>
+          <Service text="HOT WATER"/>
+          <Service text="LEAKING PIPES"/>
+          <Service text="GAS FITTING"/>
+          <Service text="LEAKING TAPS"/>
+          <Service text="PIPE RELINING"/>
+          <Service text="LEAKING TOILETS"/>
+          <Service text="LEAK DETECTION"/>
         </div>
         <div className="services-footer">
             <p className="header-subttile">We use well known brands including</p>

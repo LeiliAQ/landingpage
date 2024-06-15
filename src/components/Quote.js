@@ -22,7 +22,7 @@ export default class Quote extends Component {
                     <div className="no-fee-outer">
                         <div className="no-fee-inner">
                             <div>$0</div>
-                             No Call <br /> Out Fees
+                             No Call <br /> Out Fees <sup>*</sup>
                         </div>
                     </div>
 
@@ -36,11 +36,12 @@ export default class Quote extends Component {
                     <div className="header-rest">
                         <div className="icon-container">
                             <img src={lockPng} alt="" />
-                            <span>You will recieve a response within minutues</span>
+                            <span>Your information is 100% safe and secure</span>
                         </div>
                         <div className="icon-container">
                             <img src={lockPng} alt="" />
-                            <span>Your information is 100% safe and secure</span>
+                            <span>
+                            You will recieve a response within minutues</span>
                         </div>
                         
                     </div>
@@ -65,11 +66,11 @@ export default class Quote extends Component {
             {/* book online */}
             <div className="book-online">
                 <div className="off">
-                    <div><sup>$</sup>50</div>
+                    <div><sup className='dollar-sign'>$</sup><span className='book-online-number'>50</span></div>
                     
                     <div className="rorated-off">OFF</div>
                 </div>
-                <span>When you book online.</span>
+                <span>When you <br /> book online</span>
             </div>
          </div>
       </div>

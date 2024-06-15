@@ -7,7 +7,7 @@ export default class Service extends Component {
       <div className='Service'>
             <div className="bar">
                 <div className="icon-containing"></div>
-                <div className="bottom-blue-bar"><p className="hot-water">Hot Water</p></div>
+                <div className="bottom-blue-bar"><p className="hot-water">{this.props.text}</p></div>
             </div>
       </div>
     )

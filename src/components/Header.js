@@ -27,7 +27,7 @@ export default class Header extends Component {
             
             </ul>
             <div className="nav-buttons">
-                <a href="#0" className="btn nav__button btn nav__button--active">Get a free quote</a>
+                <a href="#0" className="btn nav__button nav__button--active">Get a free quote</a>
                 <a href="#0" className="btn nav__button">1300 00 000</a>
             </div>
             </div>

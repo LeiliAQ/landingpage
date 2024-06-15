@@ -3,7 +3,8 @@
     height: 20rem;
     background: #808080;
     position: relative;
-}.bar{
+}
+.bar{
     width: 90%;
     height: 4rem;
     background: #002441;
@@ -11,6 +12,8 @@
     left: 0;
     bottom: 0;
     clip-path: polygon(0 0, 100% 0, 90% 0%, 100% 100%, 0 100%);
+    font-family: Halyard Display;
+    font-size: 16px;
 }
 .icon-containing{
     background: #00abfb;
