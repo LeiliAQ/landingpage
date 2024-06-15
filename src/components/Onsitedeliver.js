@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './Onsitedeliver.css'
+import deliveryIcon1 from '../images/Asset 21.png'
+import deliveryIcon2 from '../images/Asset 22.png'
 
 export default class Onsitedeliver extends Component {
   render() {
@@ -28,11 +30,20 @@ export default class Onsitedeliver extends Component {
                     </p>
                     <div className="delivery-boxes">
                         <div className="delivery-box">
-                            <div className="mini-upper">Lifetime labourwarranty</div>
+                            <div className="mini-container">
+                                <img src={deliveryIcon1} alt="" />
+                                <div className="mini-upper">Lifetime labourwarranty</div>
+                            </div>
                             <div className="mini-lower">We pride ourselves on our workmanshipand guarantee our service.</div>
+  
+    
+                            
                         </div>
                         <div className="delivery-box">
-                            <div className="mini-upper">Fully licensed & insured</div>
+                            <div className="mini-container">
+                                <img src={deliveryIcon2} alt="" />
+                                <div className="mini-upper">Fully licensed & insured</div>
+                            </div>
                             <div className="mini-lower">Our professionals are reliable and provide compliance certificates for your peace of mind.</div>
                         </div>
                     </div>

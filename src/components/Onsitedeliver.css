@@ -133,6 +133,8 @@
     align-items: center;
     text-align: center;
     margin-left: 1rem;
+    font-size: 18px;
+    font-family: Halyard Semi-Bold;
 }
 .mini-upper{
     color: #00aeff; 
@@ -140,10 +142,21 @@
     transform: skew(10deg);
     font-family: Halyard Semi-Bold;
     font-size: 27px;
+    text-align: left;
+    margin-left: 2rem;
 }
 .mini-lower{
     color:black;
-    font-size: 14px;
+    font-size: 12px;
     transform: skew(10deg);
     font-family: Gilroy-Regular;
+    max-width: 18rem;
+    text-align: left;
+    
 }
+.mini-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 4rem;
+    }
