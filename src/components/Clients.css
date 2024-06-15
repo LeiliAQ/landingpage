@@ -43,11 +43,16 @@
 }
 
 
-
 .starIcon{
     width: 2.5rem;
     height: 2.5rem;
     /* margin-left: -0.5rem; */
 }
+.doublequote-svg{
+    width: 4rem; 
+    height: 4rem;
+    fill: #00aeff; 
+    transform: scaleX(-1)
+  }
 
 
