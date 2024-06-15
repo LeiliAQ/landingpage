@@ -19,11 +19,11 @@ export default class Header extends Component {
               <li><a className='nav-link' href="#contact">FAQ</a></li>
             </ul>
             <ul className="nav-availables">
-                <li className="nav-available__line">/</li>
+                <li className="nav-available__line"></li>
                 <li><a className='nav-available' href="#home">We're available</a></li>
                 <li className='nav-circle'><a className='nav-available' href="#services"></a></li>
                 <li><a className='nav-available' href="#services">11:12</a></li>
-                <li className="nav-available__line">/</li>
+                <li className="nav-available__line"></li>
             
             </ul>
             <div className="nav-buttons">

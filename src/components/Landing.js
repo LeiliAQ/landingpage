@@ -8,7 +8,7 @@ export default class Landing extends Component {
     return (
       <div className='landing'>
         <div class="second-image-overlay"></div>
-         <h1 className='title'>
+         <h1 className='landing-title'>
             YOUR LOCAL <span className="second-line">HOT WATER</span> EXPERTS
           </h1>
          <div className="header_pricing">

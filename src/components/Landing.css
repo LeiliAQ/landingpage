@@ -8,7 +8,7 @@
 }
 
 
-.title {
+.landing-title {
     font-size: 6rem;
     max-width: 50rem;
     font-weight: 1000;
@@ -16,9 +16,10 @@
     padding-top: 5rem;
     position: relative; 
     line-height: 0.9;
+    font-family: Halyard Display-Bold;
 }
 
-.title::before {
+.landing-title::before {
     content: ''; 
     position: absolute; 
     left: 0;
@@ -53,8 +54,8 @@
 }
 
 .icon-image{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     background: #00aeff;
 }
 .header_pricing{
@@ -62,7 +63,7 @@
 
 }
 .pricing__elements{
-
+    font-family: popins;
 }
 .pricing__element{
     display: flex;
@@ -78,8 +79,12 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+.pspan-container p{
+    font-size: 2rem;
+    font-weight: bold;
+}
 .pspan-container span{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     top: -0.5rem;
 }
 .pricing_-image{
@@ -92,27 +97,32 @@
 .flex-right{
     display: flex;
     justify-content: flex-end;
-    margin-top: -4rem;
+    margin-top: -10rem;
     padding-right: 8rem;
 }
 .header-down-elements{
-    width: 36rem;
-    height: 30rem;
+    /* width: 36rem;
+    height: 30rem; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
 }
 .header-down-element{
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 14rem;
     background: black;
     transform: skew(-20deg);
-    
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    font-family: Halyard Display;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    /* padding-right: 2rem; */
+    margin-left: 1.5rem;
+
 }
 
 .header-down-element>div{
@@ -128,13 +138,27 @@
 .yellow{
     background: #ffd100;
     color: black;
+    font-style: bold;
+}
+.header-down-title-container{
+    font-size:1.5rem ;
 }
 .header-down__title{
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: bold;
 }
+.emergency{
+    font-weight: 700;
+    margin-top: -1.2rem;
+    line-height: 1;
+    font-size: 1.5rem;
+    
+}
 .header-down__rating{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+}
+.header-down__social{
+    font-size: 1.5rem;
 }
 .header-image{
     margin: 0 auto;

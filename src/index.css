@@ -69,18 +69,18 @@ table {
 /* ///////// */
 /* fonts */
 /* ///////// */
-/* @font-face {
-  font-family: "Archivo Black";
-  src: url("../fonts/Archivo/Archivo-Black.ttf") format("truetype");
+@font-face {
+  font-family: "Halyard Display-Bold";
+  src: url("./fonts/fonnts.com-Halyard_Display_SemiBold.otf") format("truetype");
 }
 @font-face{
-  font-family: "Roboto Medium";
-  src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-family: "Halyard Display";
+  src: url("./fonts/fonnts.com-Halyard_Display.otf") format("truetype");
 }
 @font-face{
-  font-family:"Roboto Regular";
-  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-} */
+  font-family:"popins";
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
 
 
 
