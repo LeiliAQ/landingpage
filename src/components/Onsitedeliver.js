@@ -11,8 +11,8 @@ export default class Onsitedeliver extends Component {
             <div className="onsite-quote">
                 <div className="onsite">Get a free onsite quote</div>
                 <div className="onsite-buttons">
-                    <a href="#0" className="onsite-button btn">1300 000 000</a>
-                    <a href="#0" className="onsite-button btn btn-2nd">Get a free quote</a>
+                    <a href="#0" className="onsite-button btn"><span>1300 000 000</span></a>
+                    <a href="#0" className="onsite-button btn btn-2nd"><span>Get a free quote</span></a>
                 </div>
             </div>
             {/* delivery */}

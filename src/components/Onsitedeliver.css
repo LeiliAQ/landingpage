@@ -45,11 +45,15 @@
     justify-content: center;
     align-items: center;
 }
+.onsite-button span{
+    transform: skew(10deg);
+}
 .onsite-button{
     margin-left: 1rem;
     font-weight: bold;
     font-size: 17px;
-    font-family: Halyard Semi-Bold;;
+    font-family: Halyard Semi-Bold;
+    
 }
 .btn-2nd{
     background: snow;
