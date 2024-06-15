@@ -9,7 +9,7 @@
 
 
 .title {
-    font-size: 5.5rem;
+    font-size: 6rem;
     max-width: 50rem;
     font-weight: 1000;
     padding-left: 8rem;
@@ -34,7 +34,7 @@
 .second-line {
     background-color: #007dff;
     color: white;
-    /* padding: 0.2em 0.5em; */
+    
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -96,8 +96,8 @@
     padding-right: 8rem;
 }
 .header-down-elements{
-    width: 34rem;
-    height: 26rem;
+    width: 36rem;
+    height: 30rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,12 +108,17 @@
     height: 10rem;
     background: black;
     transform: skew(-20deg);
-    /* margin-right: 3rem; */
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
+
+.header-down-element>div{
+    transform: skew(20deg);
+}
+
 .blue{
     background: #0c6cb9;
 }
@@ -131,10 +136,11 @@
 .header-down__rating{
     font-size: 0.8rem;
 }
-
+.header-image{
+    margin: 0 auto;
+}
 .star{
     width: 1.5rem;
     height: 1.5rem;
-   
 }
 

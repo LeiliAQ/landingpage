@@ -6,7 +6,12 @@ export default class Header extends Component {
     return (
       <div>
         <nav className='nav'>
-            <div className="logo-top">LOGO</div>
+          <div className="logo-container">
+              <div className="logo-top">LOGO</div>
+          </div>
+            
+            {/* including 3 other parts of the nav */}
+            <div className='navs-container'>
             <ul className="nav-links">
               <li><a className='nav-link' href="#home">Home</a></li>
               <li><a className='nav-link' href="#services">Services</a></li>
@@ -22,9 +27,12 @@ export default class Header extends Component {
             
             </ul>
             <div className="nav-buttons">
-                <a href="#0" className="btn nav__button">Get a free quote</a>
+                <a href="#0" className="btn nav__button btn nav__button--active">Get a free quote</a>
                 <a href="#0" className="btn nav__button">1300 00 000</a>
             </div>
+            </div>
+
+
       </nav>
       </div>
     )
