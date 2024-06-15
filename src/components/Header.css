@@ -12,7 +12,7 @@
     
 }
 .logo-top{
-    padding: 0rem 4rem;
+    padding: 0rem 6rem;
     background: snow;
     display: flex;
     justify-content: center;
@@ -20,12 +20,12 @@
     color: #004881;
     font-weight: 700;
     cursor: pointer;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
     border-radius: 1.5rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-style: bold;
     flex-basis: 25%;
-
+    font-family: Halyard Display;
 }
 .navs-container{
     flex-basis: 50%;
