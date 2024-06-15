@@ -1,0 +1,114 @@
+/* .booking-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+} */
+
+
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10rem;
+    height: 30rem;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 95%); */
+  }
+  
+  .booking-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 90rem;
+  }
+  
+  .booking__title {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: -10rem;
+  }
+  
+  .booking__title span {
+    color: #00aeff;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form-booking-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-booking-input {
+    width: calc(33.33% - 10px);
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 2rem;
+  }
+  
+  .form-booking-textarea {
+    width: calc(66.66% - 10px);
+    height: 6rem;
+  }
+  
+  .form-booking-button {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    background-color: #00aeff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .form-booking-button:hover {
+    background-color: #007bbd;
+  }
+ 
+/* .booking-container__box{} */
+
+.booking-box {
+    background: #4d4d4d;
+    font-size: 8rem;
+    font-weight: bold;
+    color: snow;
+    width: 37rem;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking__footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.booking__footer-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking_-footer-text{
+    font-size: 1.3rem;
+    margin-right: 5rem;
+}
+
+.lock__icon{
+    margin-right: 1rem; 
+}
+
+
+

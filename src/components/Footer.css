@@ -1,0 +1,121 @@
+
+
+.footer-section {
+    margin-top: 10rem;
+    width: 100%;
+    background: #003356;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.footer-section::before {
+    content: '';
+    position: absolute;
+    top: -8rem;
+    left: 0;
+    width: 10rem; /* Adjust size as needed */
+    height: 10rem; /* Adjust size as needed */
+    background: #003356; /* Adjust color as needed */
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+.footer-section__upper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    width: 100%;
+    color: snow;
+    padding: 2rem 0;
+}
+
+.footer-item-logo {
+    width: 28rem;
+    height: 14rem;
+    border-radius: 2rem;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item-logo span {
+    color: #004881;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-list-item--line {
+    width: 4rem;
+    height: 0.4rem;
+    background: #00aeff;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-item-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list-item {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer-list-item a {
+    color: snow;
+    text-decoration: none;
+}
+
+
+.footer-button-container{
+    transform: skew(-10deg);
+    margin-top: 5rem;
+}
+.footer-items-btn{
+    background: snow;
+    color: #00aeff;
+    width: 10rem;height: 8rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+} 
+
+
+.footer-line-through{
+    width: 80%;
+    height: 1px;
+    background: #f1f1f1;
+}
+.footer-section__lower{
+    width: 80%;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.mediaco{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.mediaco span{
+    font-size: 2rem;
+    margin-left: 2rem;
+}

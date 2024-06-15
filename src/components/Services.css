@@ -1,0 +1,40 @@
+.services-container{
+    width: 80%;
+    margin:0 auto;
+
+}
+.header-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.header-title span{
+    color:#007bff;
+}
+.header-text{
+    text-align: center;
+    font-size: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+/* services */
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+/* services footer */
+.services-footer{
+
+}
+.header-subttile{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.header-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

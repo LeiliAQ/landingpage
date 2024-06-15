@@ -1,0 +1,99 @@
+.repairbanner-container{
+    
+    
+}
+.repair-box{
+    width: 100%;
+    height: 22rem;
+    background: #004881;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.logo{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: snow;
+}
+.repair-logo{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #004881;
+    
+}
+.repair-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: snow;
+}
+.repair-text__title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.repair-text-desc{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.repair-text-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.repair-text-button {
+    transform: skew(0deg);
+}
+.repair-text-button--snow{
+    background: snow;
+    color: #004881;
+    margin-left: 1rem;
+}
+.repair-img{
+    overflow: hidden;
+    height: 148%;
+    margin-top: -10rem;
+    z-index: 100;
+    position: relative;
+    width: 30rem;
+}
+.repair-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transform: rotate(-10deg); */
+}
+
+
+/* lower section */
+.repairbanner_lower{
+    width: 100%;
+    height: 10rem;
+    background: snow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inner-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.do__digit{
+    margin-right: 1rem;
+    color: #00aeff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.do__text{
+
+}
+.do__text-title{
+    font-size: 2rem;
+    font-weight: bold;
+}

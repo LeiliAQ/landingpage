@@ -1,0 +1,129 @@
+.quote-deliver-container{
+    display: flex;
+    flex-direction: column;
+}
+.onsite-quote{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+}
+.onsite{
+    width: 60%;
+    background: #0074ff;
+    color: snow;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%); */
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.onsite::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -0.5em; 
+    bottom: 0;
+    width: 0;
+    border-right: 1em solid #0074ff; 
+    transform: skewX(-15deg); 
+    z-index: -1;
+}
+
+.onsite-buttons{
+    width: 40%;
+    background: #004881;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onsite-button{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.btn-2nd{
+    background: snow;
+    color: #00aeff;
+}
+/* delivery */
+.delivery{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50rem;
+}
+.delivery-right{
+    flex-grow: 1;
+}
+.delivery-title{
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.delivery-text{
+    max-width: 40rem;
+    margin: 0 auto;
+    
+}
+.delivery-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00aeff;
+    color: snow;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+.delivery-left::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -4em; 
+    bottom: 0;
+    width: 0;
+    border-right: 10em solid #00aeff; 
+    transform: skewX(-15deg); 
+    z-index: -1;
+}
+
+
+.delivery-right img{
+    height: 50rem;
+}
+
+
+.delivery-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.delivery-box{
+    background: snow;
+    width: 20rem;
+    height: 14rem;
+    transform: skew(-10deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mini-upper{
+    color: #00aeff; 
+    font-weight: bold;
+    transform: skew(10deg);
+}
+.mini-lower{
+    color:black;
+    font-size: 1rem;
+    transform: skew(10deg);
+}

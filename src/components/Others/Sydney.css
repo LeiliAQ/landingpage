@@ -1,0 +1,66 @@
+.sydney{
+
+}
+.sydney-faqs{
+    background: #f1f1f1;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.faqs__title{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.faqs__title span{
+    color:#00aeff;
+}
+.faqs__text{
+    font-size: 2rem;
+}
+.faqs__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.faqslist__item{
+    width: calc(50% - 1.5rem);
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    border-bottom: dashed 2px #808080;
+    
+}
+.faqitem__text{
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.faqitem__plus{
+    flex: 0;
+    font-size: 3rem;
+    font-weight: bold;
+   
+}
+.faqitem__plus a{
+    color: black;
+}
+.faqs__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: snow;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.faqs-button1{
+    background: #00aeff;
+}
+.faqs-button2{
+    background: #002441;
+    margin-left: 1rem;
+}
+
