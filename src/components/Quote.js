@@ -25,7 +25,6 @@ export default class Quote extends Component {
                              No Call <br /> Out Fees <sup>*</sup>
                         </div>
                     </div>
-
                     <img  className='quote-img' src={phoneImage} alt="" />
                 </div>
             </div>

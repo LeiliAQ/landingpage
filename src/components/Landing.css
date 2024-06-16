@@ -189,15 +189,15 @@
 }
 @media screen and (max-width: 992px) {
     .landing-title {
-        font-size: 4rem; /* Adjust font size */
-        padding-left: 4rem; /* Adjust padding */
-        padding-top: 3rem; /* Adjust padding */
+        font-size: 4rem; 
+        padding-left: 4rem; 
+        padding-top: 3rem; 
     }
     .header_pricing {
-        padding-left: 4rem; /* Adjust padding */
+        padding-left: 4rem;
     }
     .flex-right {
-        padding-right: 4rem; /* Adjust padding */
+        padding-right: 4rem; 
     }
     .header-down-elements{
         width: 100%;
@@ -217,31 +217,31 @@
 /* Small tablets and large phones (768px and below) */
 @media screen and (max-width: 768px) {
     .landing-title {
-        font-size: 3rem; /* Adjust font size */
-        padding-left: 2rem; /* Adjust padding */
-        padding-top: 2rem; /* Adjust padding */
+        font-size: 3rem; 
+        padding-left: 2rem; 
+        padding-top: 2rem; 
     }
     .icon-image {
-        width: 4rem; /* Adjust size */
-        height: 4rem; /* Adjust size */
+        width: 4rem; 
+        height: 4rem; 
     }
     .header_pricing {
-        padding-left: 2rem; /* Adjust padding */
+        padding-left: 2rem; 
     }
     .flex-right {
-        flex-direction: column; /* Stack elements vertically */
-        padding-right: 2rem; /* Adjust padding */
-        margin-top: 2rem; /* Adjust margin */
+        flex-direction: column; 
+        padding-right: 2rem; 
+        margin-top: 2rem; 
     }
     .header-down-elements {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem; /* Adjust margin */
+        margin-top: 2rem;
     }
 
     .header-down-element {
-        padding: 1rem; /* Adjust padding */
+        padding: 1rem; 
         max-width: 10rem;
     }
 

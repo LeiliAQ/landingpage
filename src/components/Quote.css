@@ -179,3 +179,78 @@
     left: 0;
     
 }
+
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 1200px) {
+    .quote-image-conntainer {
+        flex-basis: 400px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 500px; 
+    }
+    .quote-img {
+        max-width: 250px; 
+    }
+    .no-fee-outer {
+        max-width: 250px; 
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .quote_description {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .quote-form-container {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+
+    .long-input {
+        grid-column: span 2; 
+    }
+
+    .submit-button {
+        grid-column: span 2; 
+    }
+}
+
+/* Small tablets and large phones (768px and below) */
+@media screen and (max-width: 768px) {
+    .quote-img {
+        display: none; 
+    }.form-header{
+        flex-direction: column;
+    }
+}
+
+/* Mobile phones (576px and below) */
+@media screen and (max-width: 576px) {
+    .form-input {
+        padding: 0.8rem; 
+        font-size: 14px; 
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .long-input {
+        grid-column: span 1; 
+    }
+
+    .submit-button {
+        grid-column: span 1; 
+    }
+    .describe{
+        font-size: 20px;
+    }
+}
