@@ -39,3 +39,41 @@
     color: #00aeff;
     font-weight: bold;
 }
+
+/* media query */
+@media screen and (max-width: 1200px) {
+    .example-logo{
+        font-size: 4rem;
+        width: 16rem;
+        height: 16rem;
+    }
+    .example-text{
+        max-width: 90rem;
+    }
+    .upper-example-text{
+        font-size: 40px;
+        max-width: 56rem;
+    }
+    .lower-example-text{
+        font-size: 16px;
+        max-width: 60rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .example-logo{
+        display: none;
+    }
+    .example-text{
+        max-width: 45rem;
+    }
+    .upper-example-text{
+        font-size: 32px;
+        max-width: 40rem;
+    }
+    .lower-example-text{
+        font-size: 12px;
+        max-width: 40rem;
+    }
+   
+}

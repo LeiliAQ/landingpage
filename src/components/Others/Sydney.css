@@ -3,14 +3,13 @@
 }
 .sydney-faqs{
     background: #f1f1f1;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 }
 
 .faqs__title{
     font-size: 90px;
-    font-weight: bold;
-    font-style: Halyard Semi-Bold;
+    font-family: 'Halyard Semi-Bold';
 }
 .faqs__title span{
     color:#00aeff;
@@ -57,9 +56,10 @@
     justify-content: center;
     align-items: center;
     color: snow;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
+    
 }
 .faqs__buttons span{
     transform: skew(10deg);
@@ -72,7 +72,7 @@
     margin-left: 1rem;
 }
 
-/* media query */
+
 /* media query */
 @media screen and (max-width: 1200px) {
     
