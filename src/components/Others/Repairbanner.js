@@ -6,8 +6,9 @@ import rapiraLogo from '../../images/Asset 24.png'
 export default class Repairbanner extends Component {
   render() {
     return (
-      <div className='repairbanner-container'>
-        <div className="repair-box">
+        <div className="repair-banner-main">
+        <div className='repairbanner-container'>
+           <div className="repair-box">
             {/* <div className="repair-logo-container"><span className='repair-logo'>LOGO</span></div> */}
             <div className="repair-logo-icon"><img className="logo-image-repair" src={rapiraLogo} alt="" /></div>
             <div className="repair-text">
@@ -47,6 +48,8 @@ export default class Repairbanner extends Component {
             </div>
         </div>
       </div>
+        </div>
+      
     )
   }
 }
