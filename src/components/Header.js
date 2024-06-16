@@ -20,8 +20,8 @@ export default class Header extends Component {
             <ul className="nav-availables">
                 <li className="nav-available__line"></li>
                 <li><a className='nav-available nav-available-1' href="#home">We're available</a></li>
-                <li className='nav-circle'><a className='nav-available' href="#services"></a></li>
-                <li><a className='nav-available nav-available-2' href="#services">11:12am</a></li>
+                <li className='nav-circle'></li>
+                <li><div className='nav-available nav-available-2'>11:12am</div></li>
                 <li className="nav-available__line"></li>
             </ul>
             <div className="nav-buttons">
