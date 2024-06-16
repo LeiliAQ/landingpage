@@ -1,5 +1,5 @@
 .sydney{
-
+    
 }
 .sydney-faqs{
     background: #f1f1f1;
@@ -59,6 +59,7 @@
     color: snow;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 .faqs__buttons span{
     transform: skew(10deg);
@@ -71,3 +72,48 @@
     margin-left: 1rem;
 }
 
+/* media query */
+/* media query */
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .faqs__title{
+        font-size: 60px;
+    }
+    .faqs__text{
+        font-size: 14px;
+    }
+    .faqs__list{
+        justify-content: space-between;
+        gap: 1rem;
+    }
+   
+}
+@media screen and (max-width: 768px) {
+    .faqs__title{
+        font-size: 40px;
+    }
+    .faqs__buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 0.6rem;
+    }
+    .faqitem__text{
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 567px) {
+    .faqs__title{
+        font-size: 32px;
+    }
+    .faqs__buttons{
+        gap: 0.3rem;
+    }
+    .faqitem__text{
+        font-size:10px;
+    }
+}
