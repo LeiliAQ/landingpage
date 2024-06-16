@@ -43,7 +43,7 @@ export default class Services extends Component {
         </div>
         <div className="services-footer">
             <p className="header-subttile">We use well known brands including</p>
-            <hr />
+            <div className="services-hr"></div>
             <div className="header-images">
                 {imagesArray.map((image, index) => (
                   <Headerimage key={index} image={image} />

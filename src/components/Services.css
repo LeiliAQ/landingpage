@@ -33,6 +33,10 @@
 /* services footer */
 .services-footer {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .header-subttile {
@@ -41,12 +45,22 @@
     font-weight: bold;
     font-family: Halyard Display;
     color: #231f20;
+    text-align: left;
+}
+
+.services-hr {
+    width: 50rem;
+    height: 1px;
+    background: gray;
+    margin-top: -1.7rem; 
+    margin-left: auto; 
 }
 
 .header-images {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 20px; 
+    justify-content: space-between; 
+    gap: 20px;
     align-items: center;
+    width: 100%; 
+    margin-top: 2rem; 
 }
