@@ -23,6 +23,13 @@
     background: #00abfb;
     width: 5rem;
     height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-containing img{
+    width: 60%;
+    height: 60%;
 }
 
 .bottom-blue-bar {
@@ -36,5 +43,4 @@
     margin-top: -8rem;
     z-index: 2;
     color: snow;
-    margin-left: -4rem;
 }
