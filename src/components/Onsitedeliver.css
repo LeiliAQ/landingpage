@@ -73,6 +73,7 @@
     background-position: center center;
     background-size: contain;
     flex-basis: 50%;
+    height: 870px;
 }
 
 .delivery-title{
@@ -95,13 +96,10 @@
     align-items: center;
     background: #00aeff;
     color: snow;
-    flex-basis: 50%; /* Adjust the width of the left section */
+    flex-basis: 50%; 
     position: relative;
     z-index: 1;
-    padding-left: 2rem; /* Optional: add padding if needed */
     box-sizing: border-box;
-
-
 }
 
 .delivery-left::before{
@@ -116,9 +114,7 @@
     z-index: -1;
 }
 
-.delivery-right img{
-    height: 50rem;
-}
+
 
 .delivery-boxes{
     display: flex;
@@ -158,9 +154,10 @@
     text-align: left;
     
 }
-.mini-container{
+ .mini-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-left: 4rem;
+    height: 870px;
     }
