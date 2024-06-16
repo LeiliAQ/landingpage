@@ -10,9 +10,9 @@
     width: 100%;
     height: 10rem;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 .onsite{
-    width: 60%;
     background: #0074ff;
     color: snow;
     font-size: 60px;
@@ -25,6 +25,7 @@
     display: inline-block;
     font-family: Halyard Semi-Bold;
     text-align: center;
+    flex-basis: 60%;
 }
 .onsite::before{
     content: '';
@@ -39,11 +40,11 @@
 }
 
 .onsite-buttons{
-    width: 40%;
     background: #004881;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 40%;
 }
 .onsite-button span{
     transform: skew(10deg);
@@ -70,10 +71,9 @@
     flex-grow: 1;
     background-image: url('../images/I-am-a-plumber-–-what-do-I-need-in-my-business-terms-and-conditions1.webp');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
+    background-position: top center;
+    background-size: cover;
     flex-basis: 50%;
-    height: 870px;
 }
 
 .delivery-title{
@@ -113,7 +113,17 @@
     transform: skewX(-15deg); 
     z-index: -1;
 }
-
+.delivery-left::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -4em; 
+    bottom: 0;
+    width: 0;
+    border-right: 0.5em solid snow; 
+    transform: skewX(-15deg); 
+    z-index: -1;
+}
 
 
 .delivery-boxes{
@@ -161,3 +171,188 @@
     padding-left: 4rem;
     height: 870px;
     }
+
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .onsite{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .onsite-button{
+        margin-left: 1rem;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: Halyard Semi-Bold;
+        width: 10rem;height: 4rem;
+    }
+    .delivery {
+        flex-direction: column; /* Stack delivery content vertically */
+        height: auto; /* Adjust height to accommodate content */
+    }
+
+    .delivery-left {
+        flex-basis: 100%; /* Full width for left content */
+        width: 100%; /* Ensure full width */
+        background: #00aeff; /* Keep background color */
+        color: snow; /* Keep text color */
+        padding: 2rem; /* Add padding for better spacing */
+        box-sizing: border-box; /* Ensure padding is included in width */
+        position: relative;
+        z-index: 1;
+        transform: none; /* Remove skew transform */
+    }
+
+    .delivery-left::before {
+        display: none; /* Hide pseudo-element border */
+    }
+
+    .delivery-right {
+        display: none; /* Hide right background image */
+    }
+
+    .delivery-title {
+        font-size: 40px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center align title */
+    }
+
+    .delivery-text {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        max-width: 100%; /* Ensure text container is full width */
+        text-align: center; /* Center align text */
+    }
+
+    .delivery-boxes {
+        flex-wrap: wrap; /* Allow delivery boxes to wrap on smaller screens */
+        justify-content: center; /* Center align boxes */
+    }
+
+    .delivery-box {
+        width: 100%; /* Full width for delivery boxes */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 1rem; /* Add margin between stacked boxes */
+        transform: none; /* Remove skew transform */
+        background: snow; /* Ensure background color */
+    }
+
+    .mini-upper {
+        color: #00aeff; /* Keep text color */
+        font-weight: bold;
+        font-size: 20px; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
+
+    .mini-lower {
+        color: black; /* Ensure text color */
+        font-size: 12px; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
+
+    .mini-container {
+        display: flex;
+        justify-content: center; /* Center align content */
+        align-items: center;
+        padding: 1rem; /* Adjust padding */
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .quote-deliver-container {
+        height: auto; 
+    }
+
+    .onsite-quote {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    .onsite {
+        width: 100%; 
+        font-size: 40px; 
+        text-align: center; 
+    }
+
+    .onsite::before {
+        display: none; 
+    }
+
+    .onsite-buttons {
+        width: 100%; 
+        justify-content: center; 
+        margin-top: 1rem; 
+    }
+
+    .onsite-button {
+        width: 30%; 
+        margin: 0.5rem auto;
+        text-align: center; 
+    }
+
+    .delivery {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .delivery-left {
+        flex-basis: 100%;
+    }
+
+    .delivery-right {
+        display: none; 
+    }
+
+     .header-subttile {
+        font-size: 24px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .delivery-title {
+        font-size: 40px; 
+    }
+
+    .delivery-text {
+        font-size: 14px; 
+        max-width: 100%; 
+        padding: 0 1rem; 
+    }
+
+    .delivery-boxes {
+        flex-wrap: wrap; 
+    }
+
+    .delivery-box {
+        width: 100%; 
+        margin-left: 0; 
+        margin-top: 1rem; 
+        transform: none; 
+    }
+
+    .mini-upper {
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .mini-lower {
+        text-align: center; 
+    }
+    .header-subttile {
+        font-size: 20px;
+    }
+
+    .header-images {
+        flex-direction: column;
+        align-items: center;
+    }
+}
