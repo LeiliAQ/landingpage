@@ -7,6 +7,7 @@ export default class Clients extends Component {
   render() {
     return (
       <div Clients>
+        <div className='abr'>
         <div className="clients-container">
         <div className="Clients-title">What our clients say.</div>
         <div className="clients-boxes">
@@ -73,6 +74,8 @@ export default class Clients extends Component {
             
         </div>
         </div>
+        </div>
+        
 
       </div>
     )
