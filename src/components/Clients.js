@@ -47,6 +47,7 @@ export default class Clients extends Component {
                     <img className='starIcon' src={starIcon} alt="" />
                     <img className='starIcon' src={starIcon} alt="" />
                 </div>
+
                 <p className='client-box__footer'>Five Dock</p>
             </div>
 

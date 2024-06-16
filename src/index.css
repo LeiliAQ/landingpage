@@ -90,6 +90,10 @@ table {
   src: url("../public/fonts/Gilroy-Regular.ttf") format("truetype");
 }
 @font-face{
+  font-family:"Gilroy Sem-Bold";
+  src: url("../public/fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+@font-face{
   font-family:"Halyard Display-Medium";
   src: url("../public/fonts/fonnts.com-Halyard_Display_Medium.otf") format("truetype");
 }
