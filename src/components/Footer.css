@@ -62,9 +62,10 @@
 }
 
 .footer-item-title {
-    font-size: 3rem;
+    font-size: 34px;
     font-weight: bold;
     margin-bottom: 1rem;
+    font-family: Halyard Semi-Bold;
 }
 
 .footer-list {
@@ -75,7 +76,8 @@
 
 .footer-list-item {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 15px;
+    font-family: Halyard Display-Book;
 }
 
 .footer-list-item a {
@@ -93,10 +95,12 @@
     color: #00aeff;
     width: 10rem;height: 8rem;
     padding: 1.5rem 2rem;
-    font-size: 1.5rem;
-    font-weight: bold;
 } 
-
+.footer-items-btn span{
+    transform: skew(15deg);
+    font-family: Halyard Semi-Bold;
+    font-size: 17px;
+}
 
 .footer-line-through{
     width: 80%;
@@ -108,14 +112,25 @@
     color: snow;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem 0;
 }
 
 .mediaco{
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 16px;
+    font-family: Halyard Display-Book;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mediaco span{
     font-size: 2rem;
     margin-left: 2rem;
+}
+.footer-copyright{
+    font-family: Halyard Display-Medium;
+    font-size: 16px;
+}
+.mediaco-services{
+    margin-right: 1.5rem;
 }

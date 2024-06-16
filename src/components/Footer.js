@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Footer.css'
+import mediacoIcon from '../images/Asset 27.png'
 
 export default class Footer extends Component {
   render() {
@@ -33,7 +34,7 @@ export default class Footer extends Component {
                     <li className='footer-list-item'><a href="#0">E: info@plumber.com.au</a></li>
                     <li>
                         <div className="footer-button-container">
-                            <a href="#0" className="footer-items-btn">Get a free quote</a>
+                            <a href="#0" className="footer-items-btn"><span>Get a free quote</span></a>
                         </div>
                     </li>
                 </ul></div>
@@ -42,7 +43,9 @@ export default class Footer extends Component {
         <div className="footer-line-through"></div>
         <div className="footer-section__lower">
             <div className="footer-copyright">© 2023 . All rights reserved. Here’s our Terms and Conditions and Privacy Policy.</div>
-            <div className="mediaco">Services by <span>MEDIACO</span></div>
+            <div className="mediaco">
+                <div className='mediaco-services'>Services by</div> 
+                <img src={mediacoIcon} alt="" /></div>
         </div>
       </div>
     )

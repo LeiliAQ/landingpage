@@ -77,6 +77,7 @@ table {
   font-family: "Halyard Display";
   src: url("../public/fonts/fonnts.com-Halyard_Display_Book.otf") format("truetype");
 }
+
 @font-face{
   font-family:"popins";
   src: url("../public/fonts/Poppins-Regular.ttf") format("truetype");
@@ -97,7 +98,10 @@ table {
   font-family:"Halyard Display-Medium";
   src: url("../public/fonts/fonnts.com-Halyard_Display_Medium.otf") format("truetype");
 }
-
+@font-face{
+  font-family: "Halyard Display-Book";
+  src: url("../public/fonts/fonnts.com-Halyard_Display_Book.otf") format("truetype");
+}
 
 /* /////////////// */
 /* global settings */
