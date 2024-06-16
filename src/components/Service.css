@@ -1,10 +1,13 @@
-.Service{
-    width: 30rem;
+.Service {
+    width: 100%;
+    max-width: 30rem; 
     height: 20rem;
     background: #808080;
     position: relative;
+    box-sizing: border-box; 
 }
-.bar{
+
+.bar {
     width: 90%;
     height: 4rem;
     background: #002441;
@@ -15,21 +18,21 @@
     font-family: Halyard Display;
     font-size: 16px;
 }
-.icon-containing{
+
+.icon-containing {
     background: #00abfb;
     width: 5rem;
-    height:  4rem;
-    
+    height: 4rem;
 }
-.bottom-blue-bar{
-    height:  4rem;
-    /* color: snow; */
-    bottom: 0;
+
+.bottom-blue-bar {
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hot-water{
+
+.hot-water {
     margin-top: -8rem;
     z-index: 2;
     color: snow;
