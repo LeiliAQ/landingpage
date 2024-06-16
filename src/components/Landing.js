@@ -1,20 +1,22 @@
 import React, { Component } from 'react'
 import './Landing.css'
 import starIcon from '../images/starpng.png'
-
+import landingIconBlue1 from '../images/Hero-Ico-3.png'
+import landingIconBlue2 from '../images/Hero-Ico-2.png'
+import landingIconBlue3 from '../images/Hero-Ico-1.png'
 
 export default class Landing extends Component {
   render() {
     return (
       <div className='landing'>
-        <div class="second-image-overlay"></div>
+        <div class="second-image- overlay"></div>
          <h1 className='landing-title'>
-            YOUR LOCAL <span className="second-line">HOT WATER</span> EXPERTS
+            YOUR LOCAL <span className="second-line">HOT WATER</span> <br />EXPERTS
           </h1>
          <div className="header_pricing">
             <div className="pricing__elements">
               <div className='pricing__element'>
-                <div className='icon-image'><img src="" alt="" className="pricing__image" /></div>
+                <div className='icon-image'><img src={landingIconBlue1} alt="" className="pricing__image" /></div>
                 <div className="pspan-container">
                   <p>Upfront pricing</p>
                   <span>Know the price of the job before we start.</span>
@@ -23,7 +25,7 @@ export default class Landing extends Component {
               </div>
 
               <div className='pricing__element'>
-                <div className='icon-image'><img src="" alt="" className="pricing__image" /></div>
+                <div className='icon-image'><img src={landingIconBlue2} alt="" className="pricing__image" /></div>
                 <div className="pspan-container">
                   <p>$0 Call out</p>
                   <span>No call out fees</span>
@@ -31,7 +33,7 @@ export default class Landing extends Component {
               </div>
 
               <div className='pricing__element'>
-                <div className='icon-image'><img src="" alt="" className="pricing__image" /></div>
+                <div className='icon-image'><img src={landingIconBlue3} alt="" className="pricing__image" /></div>
                 <div className="pspan-container">
                   <p>$50 off for online bookings</p>
                   <span>Book online to receive a discount</span>
