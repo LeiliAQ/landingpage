@@ -37,8 +37,8 @@ export default class Sydney extends Component {
               </li>
           </ul>
           <div className="faqs__buttons">
-                    <a href="#0" className="faqs-button1 btn">1300 000 000</a>
-                    <a href="#0" className="faqs-button2 btn">Get a free quote</a>
+                    <a href="#0" className="faqs-button1 btn"><span>1300 000 000</span></a>
+                    <a href="#0" className="faqs-button2 btn"><span>Get a free quote</span></a>
 
           </div>
 

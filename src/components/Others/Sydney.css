@@ -8,14 +8,16 @@
 }
 
 .faqs__title{
-    font-size: 6rem;
+    font-size: 90px;
     font-weight: bold;
+    font-style: Halyard Semi-Bold;
 }
 .faqs__title span{
     color:#00aeff;
 }
 .faqs__text{
-    font-size: 2rem;
+    font-size: 18px;
+    font-family: popins;
 }
 .faqs__list{
     display: flex;
@@ -36,13 +38,15 @@
 }
 .faqitem__text{
     flex: 1;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: bold;
+    font-family: Halyard Display-Medium;
 }
 .faqitem__plus{
     flex: 0;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: bold;
+    font-family: popins;
    
 }
 .faqitem__plus a{
@@ -55,6 +59,9 @@
     color: snow;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.faqs__buttons span{
+    transform: skew(10deg);
 }
 .faqs-button1{
     background: #00aeff;

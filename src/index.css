@@ -89,7 +89,10 @@ table {
   font-family:"Gilroy-Regular";
   src: url("../public/fonts/Gilroy-Regular.ttf") format("truetype");
 }
-
+@font-face{
+  font-family:"Halyard Display-Medium";
+  src: url("../public/fonts/fonnts.com-Halyard_Display_Medium.otf") format("truetype");
+}
 
 
 /* /////////////// */
@@ -143,6 +146,7 @@ a{
   padding: 1.8rem 1rem;
   border: 1px solid snow;
   font-size:18px;
+  font-family: Halyard Semi-Bold;
 }
 
 
