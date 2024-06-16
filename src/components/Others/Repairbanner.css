@@ -1,30 +1,27 @@
 .repairbanner-container{
-    margin-top: -10rem;
-}
-.repair-box{
-    width: 100%;
-    height: 22rem;
-    background: #004881;
+    
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 0 2rem;
-   
+    width: 86vw;
+    margin: 0 auto;
+    max-width: 1200px;
 }
-/* .repair-logo-container{
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
+
+.repair-box {
+    margin-top: -5rem;
+    width: 100%;
+    height: 400px; 
+    background: #004881; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background: snow;
+    padding: 0 2rem; 
+    box-sizing: border-box;   
 }
-.repair-logo{
-    font-size: 4rem;
-    font-weight: bold;
-    color: #004881; 
-} */
+
+
 .repair-logo-icon{
     width: 15rem;
     height: 15rem;
@@ -43,18 +40,20 @@
     align-items: center;
     color: snow;
     flex-grow: 1;
-    margin-right: -5rem;
-    margin-left: 7rem;
     text-align: center;
+    margin-left: 9rem;
 }
 .repair-text__title{
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 24px;
+    font-family: popins;
+    line-height: 0.5;
 }
 .repair-text-desc{
-    font-size: 5rem;
+    font-size: 45px;
     font-weight: bold;
-    font-size: 2rem;
+    font-family: Popins-Bold;
+    white-space: nowrap;
+    line-height: 1.5;
 }
 .repair-text-buttons{
     display: flex;
@@ -69,23 +68,22 @@
     color: #004881;
     margin-left: 1rem;
 }
+/* ///////// */
 .repair-img{
-    overflow: hidden;
-    height: 148%;
-    margin-top: -10rem;
+    height: 100%;
     z-index: 100;
-    position: relative;
-    width: 30rem;
-    flex-shrink: 0;
-    /* margin-left: 2rem; */
+    flex-basis: 100%;
+    position: relative;  
 }
 .repair-img img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    height: auto;
     object-fit: cover;
-    /* transform: rotate(-10deg); */
+    object-position: center bottom; 
+    position: absolute;
+    bottom: 0;
+    width: 40rem;
 }
-
 
 /* lower section */
 .repairbanner_lower{
@@ -104,12 +102,12 @@
 .do__digit{
     margin-right: 1rem;
     color: #00aeff;
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 50px;
+    font-family: Halyard Semi-Bold;
 }
 .do__text{
     max-width: 18rem;
-    display: felx;
+    display: flex;
     flex-direction: column;
 }
 .do__text-title{
@@ -119,4 +117,65 @@
 }.do__text-desc{
     font-size: 12px;
     font-family: popins;
+}
+
+/* media query */
+@media screen and (max-width: 1200px) {
+    .repair-img {
+        display: none; 
+    }
+    .repair-text {
+        margin: 0; 
+        flex-grow: 1; 
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .repair-box {
+        flex-direction: column;  
+        height: auto; 
+        padding: 2rem; 
+    }
+    .repair-logo-icon, .repair-text, .repair-img {
+        margin: 1rem 0; 
+    }
+    .repair-text {
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+    .repair-text-desc {
+        font-size: 2rem; 
+    }
+    .repair-text__title {
+        font-size: 1.5rem; 
+    }
+    .repair-text-buttons {
+        flex-direction: column; 
+    }
+    .repair-text-button {
+        margin: 0.5rem 0; 
+    }
+    /* lower padding-right */
+    .inner-box{
+        justify-content: center;
+    }
+    .do__digit{
+        margin-right: 0.5rem;
+        font-size: 30px
+    }
+    .do__text{
+        max-width: 14rem;
+    }
+    .do__text-title{
+        font-size: 16px;
+    }.do__text-desc{
+        font-size: 10px;
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    .repairbanner-container{
+        margin-top: 3rem;
+    }
 }

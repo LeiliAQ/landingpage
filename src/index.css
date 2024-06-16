@@ -102,7 +102,10 @@ table {
   font-family: "Halyard Display-Book";
   src: url("../public/fonts/fonnts.com-Halyard_Display_Book.otf") format("truetype");
 }
-
+@font-face{
+  font-family: "Popins-Bold";
+  src: url("../public/fonts/Poppins-Bold.ttf") format("truetype");
+}
 /* /////////////// */
 /* global settings */
 /* /////////////// */
