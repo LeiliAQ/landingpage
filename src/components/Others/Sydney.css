@@ -10,6 +10,7 @@
 .faqs__title{
     font-size: 90px;
     font-family: 'Halyard Semi-Bold';
+    color: #231f20;
 }
 .faqs__title span{
     color:#00aeff;
@@ -24,6 +25,7 @@
     justify-content: space-between;
     gap: 3rem;
     margin-top: 2rem;
+    color: #231f20;
 }
 .faqslist__item{
     width: calc(50% - 1.5rem);
@@ -94,6 +96,7 @@
 @media screen and (max-width: 768px) {
     .faqs__title{
         font-size: 40px;
+        
     }
     .faqs__buttons{
         display: flex;
