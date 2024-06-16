@@ -10,20 +10,29 @@
 .example-logo{
     background: snow;
     color:#004881;
-    font-size: 6rem;
-    font-weight: bold;
-    width: 25rem;
-    height: 25rem;
+    font-size: 5rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Halyard Display-Bold;
 }
 .example-text{
     max-width: 100rem;
 }
 .upper-example-text{
-    font-size: 3rem;
-    font-weight: bold
+    font-size: 50px;
+    font-family: Halyard Display-Bold;
+    font-weight: bold;
+    max-width: 70rem;
 }
 .lower-example-text{
-    font-size: 2rem;
+    font-size: 18px;
+    font-family: popins;
+    max-width: 75rem;
 }
 .example-link{
     text-decoration: underline;
