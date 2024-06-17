@@ -109,24 +109,24 @@
     content: '';
     position: absolute;
     top: 0;
-    right: -4em; 
+    right: -7.5rem; 
     bottom: 0;
     width: 0;
-    border-right: 10em solid #00aeff; 
+    border-right: 18rem solid #00aeff; 
     transform: skewX(-15deg); 
     z-index: -1;
 }
-.delivery-left::after{
+/* .delivery-left::after{
     content: '';
     position: absolute;
     top: 0;
-    right: -3.5rem; 
+    right: -4em; 
     bottom: 0;
     width: 0;
-    border-right: 0.5rem solid snow; 
+    border-right: 0.5em solid snow; 
     transform: skewX(-15deg); 
     z-index: -1;
-}
+} */
 
 
 .delivery-boxes{
