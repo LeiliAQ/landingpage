@@ -1,254 +1,196 @@
-
-
-/* //safari */
-
-.repair-banner-main {
-    display: -webkit-flex; /* Safari */
+.repair-banner-main{
     display: flex;
-    -webkit-justify-content: center; /* Safari */
     justify-content: center;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
     width: 100%;
     box-sizing: border-box;
+    margin-top: -1rem;
 }
-
-.repairbanner-container {
-    display: -webkit-flex; /* Safari */
+.repairbanner-container{
     display: flex;
-    -webkit-flex-direction: column; /* Safari */
     flex-direction: column;
-    -webkit-justify-content: center; /* Safari */
     justify-content: center;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
     width: 100%;
-    background: #004881;
-    margin-top: -5rem;
-    position: relative; /* Ensure proper positioning */
-    z-index: 1; /* Ensure it doesn't cover other components */
+    /* margin: 0 auto; */
+    /* max-width: 1200px; */
+    background: #004881; 
+    
 }
 
 .repair-box {
     width: 100%;
-    height: 300px;
-    display: -webkit-flex; /* Safari */
+    height: 300px; 
     display: flex;
-    -webkit-justify-content: space-between; /* Safari */
     justify-content: space-between;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
-    position: relative;
-    z-index: 2;
+    /* padding: 0 2rem;  */
+    /* box-sizing: border-box;    */
 }
 
-.repair-logo-icon {
+
+.repair-logo-icon{
     width: 15rem;
     height: 15rem;
-    -webkit-flex-shrink: 0; /* Safari */
     flex-shrink: 0;
     margin-right: 5rem;
     margin-left: 0.5rem;
 }
-
-.logo-image-repair {
+.logo-image-repair{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
-
-.repair-text {
-    display: -webkit-flex; /* Safari */
+.repair-text{
     display: flex;
-    -webkit-flex-direction: column; /* Safari */
     flex-direction: column;
-    -webkit-justify-content: space-between; /* Safari */
     justify-content: space-between;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
     color: snow;
+    /* flex-grow: 1; */
     text-align: center;
 }
-
-.repair-text__title {
+.repair-text__title{
     font-size: 24px;
     font-family: popins;
     line-height: 0.5;
 }
-
-.repair-text-desc {
+.repair-text-desc{
     font-size: 45px;
     font-weight: bold;
     font-family: Popins-Bold;
     white-space: nowrap;
     line-height: 1.5;
 }
-
-.repair-text-buttons {
-    display: -webkit-flex; /* Safari */
+.repair-text-buttons{
     display: flex;
-    -webkit-justify-content: center; /* Safari */
     justify-content: center;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
 }
-
 .repair-text-button {
-    -webkit-transform: skew(0deg); /* Safari */
     transform: skew(0deg);
     width: 12rem;
     font-size: 16px;
 }
-
-.repair-text-button--snow {
+.repair-text-button--snow{
     background: snow;
     color: #00aeff;
     margin-left: 1rem;
 }
-
-.repair-img {
+/* ///////// */
+.repair-img{
     height: 100%;
     z-index: 100;
-    -webkit-flex-basis: 100%; /* Safari */
     flex-basis: 100%;
-    position: relative;
-    display: -webkit-flex; /* Safari */
+    position: relative;  
     display: flex;
-    -webkit-justify-content: flex-end; /* Safari */
     justify-content: flex-end;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
-}
 
-.repair-img img {
+}
+.repair-img img{
+    /* width: 100%; */
     height: auto;
     object-fit: cover;
-    object-position: center bottom;
+    object-position: center bottom; 
     position: absolute;
     bottom: 0;
     width: 30rem;
+
 }
 
-.repairbanner_lower {
+/* lower section */
+.repairbanner_lower{
     width: 100%;
     height: 10rem;
     background: snow;
-    display: -webkit-flex; /* Safari */
     display: flex;
-    -webkit-justify-content: space-around; /* Safari */
     justify-content: space-around;
-    -webkit-align-items: center; /* Safari */
     align-items: center;
 }
-
-.inner-box {
-    display: -webkit-flex; /* Safari */
+.inner-box{
     display: flex;
-    -webkit-justify-content: space-between; /* Safari */
     justify-content: space-between;
-    -webkit-align-items: flex-start; /* Safari */
     align-items: flex-start;
 }
-
-.do__digit {
+.do__digit{
     margin-right: 1rem;
     color: #00aeff;
     font-size: 50px;
     font-family: Halyard Semi-Bold;
 }
-
-.do__text {
+.do__text{
     max-width: 18rem;
-    display: -webkit-flex; /* Safari */
     display: flex;
-    -webkit-flex-direction: column; /* Safari */
     flex-direction: column;
 }
-
-.do__text-title {
+.do__text-title{
     font-size: 22px;
     font-weight: bold;
     font-family: Halyard Semi-Bold;
-}
-
-.do__text-desc {
+}.do__text-desc{
     font-size: 12px;
     font-family: popins;
 }
 
-/* Media Queries */
+/* media query */
 @media screen and (max-width: 1200px) {
     .repair-img {
-        display: none;
+        display: none; 
     }
-
     .repair-text {
-        margin: 0;
-        -webkit-flex-grow: 1; /* Safari */
-        flex-grow: 1;
+        margin: 0; 
+        flex-grow: 1; 
     }
 }
 
 @media screen and (max-width: 992px) {
+    
     .repair-box {
-        -webkit-flex-direction: column; /* Safari */
-        flex-direction: column;
-        height: auto;
-        padding: 2rem;
+        flex-direction: column;  
+        height: auto; 
+        padding: 2rem; 
     }
-
     .repair-logo-icon, .repair-text, .repair-img {
-        margin: 1rem 0;
+        margin: 1rem 0; 
     }
-
     .repair-text {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0; 
+        margin-right: 0; 
     }
-
     .repair-text-desc {
-        font-size: 2rem;
+        font-size: 2rem; 
     }
-
     .repair-text__title {
-        font-size: 1.5rem;
+        font-size: 1.5rem; 
     }
-
     .repair-text-buttons {
-        -webkit-flex-direction: column; /* Safari */
-        flex-direction: column;
+        flex-direction: column; 
     }
-
     .repair-text-button {
-        margin: 0.5rem 0;
+        margin: 0.5rem 0; 
     }
-
-    .inner-box {
-        -webkit-justify-content: center; /* Safari */
+    /* lower padding-right */
+    .inner-box{
         justify-content: center;
     }
-
-    .do__digit {
+    .do__digit{
         margin-right: 0.5rem;
-        font-size: 30px;
+        font-size: 30px
     }
-
-    .do__text {
+    .do__text{
         max-width: 14rem;
     }
-
-    .do__text-title {
+    .do__text-title{
         font-size: 16px;
-    }
-
-    .do__text-desc {
+    }.do__text-desc{
         font-size: 10px;
     }
+  
 }
-
 @media screen and (max-width: 768px) {
-    .repairbanner-container {
+    .repairbanner-container{
         margin-top: 3rem;
     }
 }
