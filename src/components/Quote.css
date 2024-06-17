@@ -55,13 +55,22 @@
     font-weight: bold;
     text-align: center;
     font-family: Halyard Display;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .no-fee-inner div{
     font-size: 107px;
     font-family: popins;
     margin-top: -0.5rem;
 }
-
+.no-call-out{
+    max-width:8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .quote-img{
     width: 30rem;
     height: 60rempx;

@@ -22,7 +22,9 @@ export default class Quote extends Component {
                     <div className="no-fee-outer">
                         <div className="no-fee-inner">
                             <div>$0</div>
-                             No Call <br /> Out Fees <sup>*</sup>
+                             <p className="no-call-out">
+                                    No Call <br /> Out Fees <sup>*</sup>
+                             </p>
                         </div>
                     </div>
                     <img  className='quote-img' src={phoneImage} alt="" />
