@@ -21,7 +21,7 @@ export default class Quote extends Component {
                 <div className="quote-image-conntainer">
                     <div className="no-fee-outer">
                         <div className="no-fee-inner">
-                            <div>$0</div>
+                            <div className='no-fee-digit'>$0</div>
                              <p className="no-call-out">
                                     No Call <br /> Out Fees <sup>*</sup>
                              </p>
@@ -67,7 +67,9 @@ export default class Quote extends Component {
             {/* book online */}
             <div className="book-online">
                 <div className="off">
-                    <div><sup className='dollar-sign'>$</sup><span className='book-online-number'>50</span></div>
+                    <div>
+                    <span className='dollar-sign'><span>$</span></span>
+                    <span className='book-online-number'>50</span></div>
                     
                     <div className="rorated-off">OFF</div>
                 </div>

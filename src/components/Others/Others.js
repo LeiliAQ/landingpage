@@ -6,7 +6,7 @@ import Sydney from './Sydney.js'
 export default class Others extends Component {
   render() {
     return (
-      <div>
+      <div className='Others'>
         <div className="others-container">
                 <Repairbanner/>
                 <Sydney/>
