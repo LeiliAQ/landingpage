@@ -2,7 +2,7 @@
     margin-top: 10rem;
     width: 100%;
     background: #003356;
-    height: 40rem;
+    height: 32rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,13 +24,13 @@
     justify-content: space-evenly;
     align-items: flex-start; 
     width: 100%;
-    color: snow;
+    color: #f1f1f1;
     padding: 2rem 0;
 }
 
 .footer-item-logo {
-    width: 28rem;
-    height: 14rem;
+    width: 22rem;
+    height: 8rem;
     border-radius: 2rem;
     background: #f1f1f1;
     display: flex;
@@ -40,7 +40,7 @@
 
 .footer-item-logo span {
     color: #004881;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .footer-item-title {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: Halyard Semi-Bold;
@@ -79,7 +79,7 @@
 }
 
 .footer-list-item a {
-    color: snow;
+    color: #f1f1f1;
     text-decoration: none;
 }
 
@@ -92,12 +92,12 @@
     background: snow;
     color: #00aeff;
     width: 10rem;height: 8rem;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
 } 
 .footer-items-btn span{
     transform: skew(15deg);
     font-family: Halyard Semi-Bold;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .footer-line-through{
@@ -108,7 +108,7 @@
 }
 .footer-section__lower{
     width: 80%;
-    color: snow;
+    color: #f1f1f1;
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
@@ -116,19 +116,19 @@
 }
 
 .mediaco{
-    font-size: 16px;
+    font-size: 13px;
     font-family: Halyard Display-Book;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .mediaco span{
-    font-size: 2rem;
+    font-size: 1rem;
     margin-left: 2rem;
 }
 .footer-copyright{
-    font-family: Halyard Display-Medium;
-    font-size: 16px;
+    font-family: 'Halyard Display-Book';
+    font-size: 12px;
 }
 .mediaco-services{
     margin-right: 1.5rem;

@@ -4,7 +4,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    min-height: 600px;
+    min-height: 500px;
     background: #f1f1f1;
 }
 .abr::before{
@@ -41,7 +41,7 @@
     margin-top: 5rem;
 }
 .Clients-title{
-    font-size: 90px;
+    font-size: 76px;
     font-weight: bold;
     text-align: center;
     color: #231f20;
@@ -64,13 +64,13 @@
     color: #00aeff;
 }
 .client-box__title{
-    font-size: 35px;
+    font-size: 24px;
     font-weight: bold;
     font-family: Gilroy Sem-Bold;
 }
 
 .client-box__footer{
-    font-size: 23px;
+    font-size: 18px;
     font-weight: bold;
     color: #00aeff;
     font-family: Gilroy Sem-Bold;
@@ -89,7 +89,7 @@
     transform: scaleX(-1)
   }
 .client-box__text{
-    font-size: 17px;
+    font-size: 12px;
     font-family: 'Gilroy-Regular';
 }
 
@@ -98,22 +98,22 @@
 @media screen and (max-width: 1200px) {
     
 .Clients-title{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .clients-box{
-    max-width: 32rem;
+    max-width: 28rem;
 }
 
 .client-box__title{
-    font-size: 30px;
+    font-size: 26px;
 
 }
 .client-box__footer{
-    font-size: 18px;
+    font-size: 12px;
 }
 .client-box__text{
-    font-size: 14px;
+    font-size: 10px;
 }
 }
 @media screen and (max-width: 992px) {
@@ -137,16 +137,16 @@
     }
     
     .clients-box{
-        max-width: 30rem;
+        max-width: 26rem;
     }
     .client-box__title{
-        font-size: 20px;
+        font-size: 18px;
     }
     .client-box__footer{
-        font-size: 12px;
+        font-size: 10px;
     }
     .client-box__text{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 @media screen and (max-width: 576px) {
