@@ -112,7 +112,7 @@
     right: -7.5rem; 
     bottom: 0;
     width: 0;
-    border-right: 18rem solid #00aeff; 
+    border-right: 23rem solid #00aeff; 
     transform: skewX(-15deg); 
     z-index: -1;
 }
