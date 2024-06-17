@@ -61,9 +61,9 @@
     align-items: center;
 }
 .no-fee-inner div{
-    font-size: 107px;
+    font-size: 98px;
     font-family: popins;
-    margin-top: -0.5rem;
+    line-height: 1;
 }
 .no-call-out{
     max-width:8rem;
