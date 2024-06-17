@@ -55,7 +55,7 @@
     font-weight: bold;
     font-size: 17px;
     font-family: Halyard Semi-Bold;
-    
+    min-width: 200px;
 }
 .btn-2nd{
     background: snow;
