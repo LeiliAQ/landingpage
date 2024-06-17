@@ -91,20 +91,6 @@ table {
   font-family: "Popins-Bold";
   src: url("../public/fonts/Poppins-Bold.ttf") format("truetype");
 }
-/* /////////////// */
-/* global settings */
-/* /////////////// */
-/* :root{
-  --primaryColor:#E76F51;
-  --gray:#d2d2d2;
-  --darkColor:#3b3735;
-  --primaryFont:"Roboto Regular",Arial,Helvetica,sans-serif;
-  --primaryFont-md:"Roboto Medium", Arial, Helvetica, sans-serif;
-  --secondaryFont:"Archivo Black", Arial, Helvetica, sans-serif;
-  --app-bg:#FAF4F2;
-  --graydark:#8d8d8d;
-  --secondaryColor:#F8E1DB;
-} */
 
 html{
   box-sizing:border-box;
