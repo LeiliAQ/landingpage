@@ -111,7 +111,7 @@
     color: snow;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: last baseline;
     padding: 2rem 0;
 }
 
