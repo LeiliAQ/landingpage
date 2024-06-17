@@ -120,10 +120,10 @@
     content: '';
     position: absolute;
     top: 0;
-    right: -4em; 
+    right: -3.5rem; 
     bottom: 0;
     width: 0;
-    border-right: 0.5em solid snow; 
+    border-right: 0.5rem solid snow; 
     transform: skewX(-15deg); 
     z-index: -1;
 }
