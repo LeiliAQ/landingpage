@@ -20,6 +20,7 @@
     font-family: Halyard Display;
     line-height: 1;
     margin-bottom: 2rem;
+    color: #231f20;
 }.fast-span{
     color:#00aeff;
 }
@@ -155,6 +156,7 @@
     justify-content: space-around;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
     font-family: Halyard Display;
+    font-weight: bolder;
 }
 .off{
     display: flex;
