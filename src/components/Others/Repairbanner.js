@@ -16,7 +16,7 @@ export default class Repairbanner extends Component {
                 <div className="repair-text-desc">Repair now, Pay Later</div>
                 <div className="repair-text-buttons">
                     <a href="#0" className="repair-text-button btn">1300 000 000</a>
-                    <a href="#0" className="repair-text-button repair-text-button--snow btn">Get a free quote</a>
+                    <a href="#0" className="repair-text-button repair-text-button--snow btn" >Get a free quote</a>
                 </div>
             </div>
             <div className="repair-img">
