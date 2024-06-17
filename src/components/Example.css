@@ -1,79 +1,94 @@
-.exampleBox{
+.exampleBox {
     width: 100%;
     height: 35rem;
     background: #dfe0e4;
+    display: -webkit-flex; /* Safari */
     display: flex;
+    -webkit-justify-content: space-around; /* Safari */
     justify-content: space-around;
+    -webkit-align-items: center; /* Safari */
     align-items: center;
-    
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
 }
-.example-logo{
+
+.example-logo {
     background: snow;
-    color:#004881;
+    color: #004881;
     font-size: 5rem;
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
+    display: -webkit-flex; /* Safari */
     display: flex;
+    -webkit-justify-content: center; /* Safari */
     justify-content: center;
+    -webkit-align-items: center; /* Safari */
     align-items: center;
+    -webkit-flex-shrink: 0; /* Safari */
     flex-shrink: 0;
     font-family: Halyard Display-Bold;
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
 }
-.example-text{
+
+.example-text {
     max-width: 100rem;
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
 }
-.upper-example-text{
+
+.upper-example-text {
     font-size: 50px;
     font-family: Halyard Display-Bold;
     font-weight: bold;
     max-width: 70rem;
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
 }
-.lower-example-text{
+
+.lower-example-text {
     font-size: 18px;
     font-family: popins;
     max-width: 75rem;
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
 }
-.example-link{
+
+.example-link {
     text-decoration: underline;
     color: #00aeff;
     font-weight: bold;
 }
 
-/* media query */
+/* Media Queries */
 @media screen and (max-width: 1200px) {
-    .example-logo{
+    .example-logo {
         font-size: 4rem;
         width: 16rem;
         height: 16rem;
     }
-    .example-text{
+    .example-text {
         max-width: 90rem;
     }
-    .upper-example-text{
+    .upper-example-text {
         font-size: 40px;
         max-width: 56rem;
     }
-    .lower-example-text{
+    .lower-example-text {
         font-size: 16px;
         max-width: 60rem;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .example-logo{
+    .example-logo {
         display: none;
     }
-    .example-text{
+    .example-text {
         max-width: 45rem;
     }
-    .upper-example-text{
+    .upper-example-text {
         font-size: 32px;
         max-width: 40rem;
     }
-    .lower-example-text{
+    .lower-example-text {
         font-size: 12px;
         max-width: 40rem;
     }
-   
 }
