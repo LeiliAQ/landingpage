@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Footer.css'
-import mediacoIcon from '../images/Asset 27.png'
+import liliIcon from '../images/LiliCodes.png'
 
 export default class Footer extends Component {
   render() {
@@ -43,9 +43,10 @@ export default class Footer extends Component {
         <div className="footer-line-through"></div>
         <div className="footer-section__lower">
             <div className="footer-copyright">© 2023 . All rights reserved. Here’s our Terms and Conditions and Privacy Policy.</div>
-            <div className="mediaco">
-                <div className='mediaco-services'>Services by</div> 
-                <img src={mediacoIcon} alt="" /></div>
+            <div className="lili">
+                <div className='lili-services'>Services by</div> 
+                <a href="#0"><img className='lili-icon' src={liliIcon} alt="" /></a>
+            </div>
         </div>
       </div>
     )

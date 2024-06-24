@@ -115,14 +115,14 @@
     padding: 2rem 0;
 }
 
-.mediaco{
+.lili{
     font-size: 13px;
     font-family: Halyard Display-Book;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.mediaco span{
+.lili span{
     font-size: 1rem;
     margin-left: 2rem;
 }
@@ -130,10 +130,19 @@
     font-family: 'Halyard Display-Book';
     font-size: 12px;
 }
-.mediaco-services{
+.lili-services{
     margin-right: 1.5rem;
 }
-
+.lili-icon{
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: #00aeff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
     @media screen and (max-width: 1200px) {
         .footer-item-title {
@@ -167,7 +176,7 @@
         .footer-section{
             height: 10rem;
         }
-        .mediaco-services{
+        .lili-services{
             display: none;
         }
         .footer-copyright{
